@@ -25,7 +25,6 @@ typedef struct stack
   struct stack *next;
 } stack;
 
-
 stack *push (stack * topp, node * node);
 
 bool isEmpty (stack * topp);
